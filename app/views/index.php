@@ -1,11 +1,12 @@
+<?php extract($data); ?>
 <!doctype html>
 <html>
 <head>
-	<title>New App</title>
+	<title><?=$title?></title>
 </head>
 <body>
 
-<p>It's running...</p>
+<p>It's running... This is URL: <?=$url?></p>
 
 </body>
 </html>
